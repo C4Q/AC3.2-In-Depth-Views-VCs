@@ -8,6 +8,7 @@
 ---
 ### All day programmatic! 
 
+![All the programmatics](./Images/allthethings.jpg)
 
 
 ---
@@ -52,3 +53,29 @@ With this portion of the code defined, we can even go into our project settings 
 #### Container View Controllers
 
 Help to assemble and manage a hierarchy of child view controllers. Some examples include `UINavigationController, UISplitViewController, UITabBarController, UIPageViewController`. A container view controller's view always takes up 
+
+
+---
+### Exercise: Emoji Card Stack
+
+**Guidelines:**
+
+1. An `EmojiDeck` has total of 40 `EmojiCard` with 10 of each of the four suits, numbered from 1 through 10:
+  - Smileys 😬
+  - Animals 🐱
+  - Transport 🚗
+  - Electronics 📱
+2. An `EmojiCardViewController` displays exactly 1 `EmojiCard`
+3. `EmojiCard` is a `UIView` subclass 
+4. `EmojiCard` conforms to `PlayingCard` protocol
+5. `EmojiCard` center image has the proper # of emojis from that suit
+6. Removing a random `EmojiCard` should remove a random `EmojiCardViewController` from the nav stack
+  - It should never remove the top-most card (the top of the nav stack)
+7. The `EmojiDeckTableViewController` should display all of the cards currently on the stack. 
+
+![Initial State](./Images/initial_state.png)
+![Four of Smileys](./Images/four_of_smileys.png)
+![Five of Animals](./Images/five_of_animals.png)
+![Remove Card Alert](./Images/remove_card_alert.png)
+![Add Card](./Images/add_card_deck_empty.png)
+![Show Stack](./Images/show_stack.png)
