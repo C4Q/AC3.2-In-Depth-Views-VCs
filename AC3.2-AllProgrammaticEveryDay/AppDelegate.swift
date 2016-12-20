@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AC3.2-InDepth-Views
+//  AC3.2-AllProgrammaticEveryDay
 //
-//  Created by Louis Tur on 12/19/16.
+//  Created by Louis Tur on 12/20/16.
 //  Copyright © 2016 C4Q. All rights reserved.
 //
 
@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
-    let rootVC: ViewController = ViewController()
-    let navigationVC: UINavigationController = UINavigationController(rootViewController: rootVC)
-    
     self.window = UIWindow(frame: UIScreen.main.bounds)
-    self.window?.rootViewController = navigationVC
+    let rootVC = MyLovelyViewController()
+    let navController = UINavigationController(rootViewController: rootVC)
+    
+    self.window?.rootViewController = navController
     self.window?.makeKeyAndVisible()
     
     return true

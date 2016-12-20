@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AC3.2-InDepth-Views.xcodeproj">
+      location = "self:AC3.2-AllProgrammaticEveryDay.xcodeproj">
    </FileRef>
 </Workspace>

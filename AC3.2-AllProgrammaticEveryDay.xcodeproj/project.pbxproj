@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1486F6FA1E0882E40095A8BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486F6F91E0882E40095A8BF /* AppDelegate.swift */; };
-		1486F6FC1E0882E40095A8BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486F6FB1E0882E40095A8BF /* ViewController.swift */; };
-		1486F6FF1E0882E40095A8BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1486F6FD1E0882E40095A8BF /* Main.storyboard */; };
-		1486F7011E0882E40095A8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1486F7001E0882E40095A8BF /* Assets.xcassets */; };
-		1486F7041E0882E40095A8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1486F7021E0882E40095A8BF /* LaunchScreen.storyboard */; };
+		140AD7F31E099025008C01A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140AD7F21E099025008C01A1 /* AppDelegate.swift */; };
+		140AD7F51E099025008C01A1 /* MyLovelyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140AD7F41E099025008C01A1 /* MyLovelyViewController.swift */; };
+		140AD7FA1E099025008C01A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140AD7F91E099025008C01A1 /* Assets.xcassets */; };
+		140AD7FD1E099025008C01A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140AD7FB1E099025008C01A1 /* LaunchScreen.storyboard */; };
+		140AD8051E09A745008C01A1 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140AD8041E09A745008C01A1 /* LazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1486F6F61E0882E40095A8BF /* AC3.2-InDepth-Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-InDepth-Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1486F6F91E0882E40095A8BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1486F6FB1E0882E40095A8BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1486F6FE1E0882E40095A8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1486F7001E0882E40095A8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1486F7031E0882E40095A8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1486F7051E0882E40095A8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140AD7EF1E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-AllProgrammaticEveryDay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140AD7F21E099025008C01A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		140AD7F41E099025008C01A1 /* MyLovelyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLovelyViewController.swift; sourceTree = "<group>"; };
+		140AD7F91E099025008C01A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140AD7FC1E099025008C01A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		140AD7FE1E099025008C01A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140AD8041E09A745008C01A1 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1486F6F31E0882E30095A8BF /* Frameworks */ = {
+		140AD7EC1E099025008C01A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,80 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1486F6ED1E0882E30095A8BF = {
+		140AD7E61E099025008C01A1 = {
 			isa = PBXGroup;
 			children = (
-				1486F6F81E0882E40095A8BF /* AC3.2-InDepth-Views */,
-				1486F6F71E0882E40095A8BF /* Products */,
+				140AD7F11E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay */,
+				140AD7F01E099025008C01A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1486F6F71E0882E40095A8BF /* Products */ = {
+		140AD7F01E099025008C01A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1486F6F61E0882E40095A8BF /* AC3.2-InDepth-Views.app */,
+				140AD7EF1E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1486F6F81E0882E40095A8BF /* AC3.2-InDepth-Views */ = {
+		140AD7F11E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay */ = {
 			isa = PBXGroup;
 			children = (
-				1486F6FB1E0882E40095A8BF /* ViewController.swift */,
-				1486F70B1E0882EB0095A8BF /* Supporting Files */,
+				140AD7F21E099025008C01A1 /* AppDelegate.swift */,
+				140AD7F41E099025008C01A1 /* MyLovelyViewController.swift */,
+				140AD7F91E099025008C01A1 /* Assets.xcassets */,
+				140AD7FB1E099025008C01A1 /* LaunchScreen.storyboard */,
+				140AD7FE1E099025008C01A1 /* Info.plist */,
+				140AD8041E09A745008C01A1 /* LazyView.swift */,
 			);
-			path = "AC3.2-InDepth-Views";
-			sourceTree = "<group>";
-		};
-		1486F70B1E0882EB0095A8BF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1486F6F91E0882E40095A8BF /* AppDelegate.swift */,
-				1486F6FD1E0882E40095A8BF /* Main.storyboard */,
-				1486F7001E0882E40095A8BF /* Assets.xcassets */,
-				1486F7021E0882E40095A8BF /* LaunchScreen.storyboard */,
-				1486F7051E0882E40095A8BF /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = "AC3.2-AllProgrammaticEveryDay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1486F6F51E0882E30095A8BF /* AC3.2-InDepth-Views */ = {
+		140AD7EE1E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1486F7081E0882E40095A8BF /* Build configuration list for PBXNativeTarget "AC3.2-InDepth-Views" */;
+			buildConfigurationList = 140AD8011E099025008C01A1 /* Build configuration list for PBXNativeTarget "AC3.2-AllProgrammaticEveryDay" */;
 			buildPhases = (
-				1486F6F21E0882E30095A8BF /* Sources */,
-				1486F6F31E0882E30095A8BF /* Frameworks */,
-				1486F6F41E0882E30095A8BF /* Resources */,
+				140AD7EB1E099025008C01A1 /* Sources */,
+				140AD7EC1E099025008C01A1 /* Frameworks */,
+				140AD7ED1E099025008C01A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AC3.2-InDepth-Views";
-			productName = "AC3.2-InDepth-Views";
-			productReference = 1486F6F61E0882E40095A8BF /* AC3.2-InDepth-Views.app */;
+			name = "AC3.2-AllProgrammaticEveryDay";
+			productName = "AC3.2-AllProgrammaticEveryDay";
+			productReference = 140AD7EF1E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1486F6EE1E0882E30095A8BF /* Project object */ = {
+		140AD7E71E099025008C01A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = C4Q;
 				TargetAttributes = {
-					1486F6F51E0882E30095A8BF = {
+					140AD7EE1E099025008C01A1 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1486F6F11E0882E30095A8BF /* Build configuration list for PBXProject "AC3.2-InDepth-Views" */;
+			buildConfigurationList = 140AD7EA1E099025008C01A1 /* Build configuration list for PBXProject "AC3.2-AllProgrammaticEveryDay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,54 +108,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 1486F6ED1E0882E30095A8BF;
-			productRefGroup = 1486F6F71E0882E40095A8BF /* Products */;
+			mainGroup = 140AD7E61E099025008C01A1;
+			productRefGroup = 140AD7F01E099025008C01A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1486F6F51E0882E30095A8BF /* AC3.2-InDepth-Views */,
+				140AD7EE1E099025008C01A1 /* AC3.2-AllProgrammaticEveryDay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1486F6F41E0882E30095A8BF /* Resources */ = {
+		140AD7ED1E099025008C01A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1486F7041E0882E40095A8BF /* LaunchScreen.storyboard in Resources */,
-				1486F7011E0882E40095A8BF /* Assets.xcassets in Resources */,
-				1486F6FF1E0882E40095A8BF /* Main.storyboard in Resources */,
+				140AD7FD1E099025008C01A1 /* LaunchScreen.storyboard in Resources */,
+				140AD7FA1E099025008C01A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1486F6F21E0882E30095A8BF /* Sources */ = {
+		140AD7EB1E099025008C01A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1486F6FC1E0882E40095A8BF /* ViewController.swift in Sources */,
-				1486F6FA1E0882E40095A8BF /* AppDelegate.swift in Sources */,
+				140AD8051E09A745008C01A1 /* LazyView.swift in Sources */,
+				140AD7F51E099025008C01A1 /* MyLovelyViewController.swift in Sources */,
+				140AD7F31E099025008C01A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1486F6FD1E0882E40095A8BF /* Main.storyboard */ = {
+		140AD7FB1E099025008C01A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1486F6FE1E0882E40095A8BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1486F7021E0882E40095A8BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1486F7031E0882E40095A8BF /* Base */,
+				140AD7FC1E099025008C01A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +155,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1486F7061E0882E40095A8BF /* Debug */ = {
+		140AD7FF1E099025008C01A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		1486F7071E0882E40095A8BF /* Release */ = {
+		140AD8001E099025008C01A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,25 +246,25 @@
 			};
 			name = Release;
 		};
-		1486F7091E0882E40095A8BF /* Debug */ = {
+		140AD8021E099025008C01A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "AC3.2-InDepth-Views/Info.plist";
+				INFOPLIST_FILE = "AC3.2-AllProgrammaticEveryDay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-InDepth-Views";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-AllProgrammaticEveryDay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1486F70A1E0882E40095A8BF /* Release */ = {
+		140AD8031E099025008C01A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "AC3.2-InDepth-Views/Info.plist";
+				INFOPLIST_FILE = "AC3.2-AllProgrammaticEveryDay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-InDepth-Views";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-AllProgrammaticEveryDay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -289,24 +273,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1486F6F11E0882E30095A8BF /* Build configuration list for PBXProject "AC3.2-InDepth-Views" */ = {
+		140AD7EA1E099025008C01A1 /* Build configuration list for PBXProject "AC3.2-AllProgrammaticEveryDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1486F7061E0882E40095A8BF /* Debug */,
-				1486F7071E0882E40095A8BF /* Release */,
+				140AD7FF1E099025008C01A1 /* Debug */,
+				140AD8001E099025008C01A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1486F7081E0882E40095A8BF /* Build configuration list for PBXNativeTarget "AC3.2-InDepth-Views" */ = {
+		140AD8011E099025008C01A1 /* Build configuration list for PBXNativeTarget "AC3.2-AllProgrammaticEveryDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1486F7091E0882E40095A8BF /* Debug */,
-				1486F70A1E0882E40095A8BF /* Release */,
+				140AD8021E099025008C01A1 /* Debug */,
+				140AD8031E099025008C01A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1486F6EE1E0882E30095A8BF /* Project object */;
+	rootObject = 140AD7E71E099025008C01A1 /* Project object */;
 }
